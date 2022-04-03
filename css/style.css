@@ -7474,6 +7474,16 @@ img {
     top: -2px;
 }
 
+.navdonate {
+    color: black !important;
+}
+
+.navdonate:hover {
+    color: white !important;
+    padding: 2px;
+    ;
+}
+
 .product-details .basic-details .item-quantity {
     position: relative;
     margin-bottom: 40px;
