@@ -2383,6 +2383,15 @@ img {
     margin-bottom: 30px;
 }
 
+.lgo {
+    height: 64px;
+    width: 150px;
+}
+
+.ftr {
+    width: 200px;
+}
+
 .main-footer .footer-widget h2 {
     position: relative;
     font-size: 20px;
