@@ -2173,13 +2173,42 @@ img {
     transform: scale(1.15);
 }
 
+.modal {
+    text-align: center;
+}
+
+.modal:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+}
+
+.modal-title {
+    position: relative;
+    left: -350px;
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+#mc {
+    position: relative;
+    left: 90px;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
 input[type=date],
 input[type=datetime-local],
 input[type=month],
 input[type=time] {
     -webkit-appearance: listbox;
     position: relative;
-    left: 6px;
+    left: 20px;
     border: 1px solid #ededed;
     padding: 20px;
 }
