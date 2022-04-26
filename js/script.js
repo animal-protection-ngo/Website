@@ -237,7 +237,6 @@
 			// Isotope Filter 
 			$filter.find('li').on('click', function(){
 				var selector = $(this).attr('data-filter');
-	
 				try {
 					$container.isotope({ 
 						filter	: selector,
@@ -256,7 +255,6 @@
 	
 			winDow.on('resize', function(){
 				var selector = $filter.find('li.active').attr('data-filter');
-
 				$container.isotope({ 
 					filter	: selector,
 					animationOptions: {
